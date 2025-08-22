@@ -3,7 +3,7 @@
 Command line interface tool for creating draft records and uploading files in Invenio Dar component.
 
 ## Features
-- Create and edit record drafts
+- Create record drafts
 - Upload files to drafts
   - Single file upload
   - Batch file upload
@@ -17,6 +17,22 @@ Command line interface tool for creating draft records and uploading files in In
 ```bash
 pip install mu-invenio-cli
 mu-invenio-cli
+```
+
+**Linux** users might need to install  _tkinter_ dependencies:
+```bash
+sudo apt-get install python3-tk
+```
+
+**Windows** users might need to install _tcl/tk_ dependencies - if Python was installed via _chocolatey_:
+```bash
+choco install tcl
+choco install tk
+```
+
+**MacOS** users might need to install _tcl/tk_ dependencies - if Python was installed via _brew_:
+```bash
+brew install tcl-tk
 ```
 
 ## Required configuration
