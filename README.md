@@ -13,11 +13,20 @@ Command line interface tool for creating draft records and uploading files in In
 - Python 3.10 or higher
 - Generated user token in the **[Dar](https://dar.elter-ri.eu/account/settings/applications/)**
 
-## Installation and run
+## Linux Installation and run
 ```bash
 pip install mu-invenio-cli
 mu-invenio-cli
 ```
+
+## Alternate Installation (Windows)
+```bash
+py -m pip install --user pipx
+py -m pipx ensurepath (reopen terminal)
+pipx install mu-invenio-cli
+mu-invenio-cli
+```
+
 
 **Linux** users might need to install  _tkinter_ dependencies:
 ```bash
