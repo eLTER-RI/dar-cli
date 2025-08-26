@@ -30,6 +30,13 @@ pipx install mu-invenio-cli
 mu-invenio-cli
 ```
 
+## Updating -- to keep up with latest features
+```
+pip install --upgrade mu-invenio-cli
+# or
+pipx upgrade mu-invenio-cli
+```
+
 
 **Linux** users might need to install  _tkinter_ dependencies:
 ```bash
