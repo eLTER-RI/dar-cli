@@ -4,7 +4,10 @@ Command line interface tool for creating draft records and uploading files in In
 
 ## Features
 - Create record drafts
-- Upload files to drafts
+  - Single draft creation
+  - Batch draft creation - not implemented yet
+- Edit draft metadata - not implemented yet
+- Upload files to drafts (maximum 100GB per file)
   - Single file upload
   - Batch file upload
 - Delete drafts
