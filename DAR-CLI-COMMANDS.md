@@ -117,7 +117,3 @@ dar-invenio-cli upload folder <draft_id> "/path/to/your/folder"
 
 The core logic is located in `dar_invenio_cli/core.py`. You can import and use the functions from this module in your own Python projects.
 
-## Deployment to PyPI
-
-The easiest way, how to deploy a new version is to bump the version in the setup.cfg and run the deploy pipline on GitLab.
-
