@@ -7,17 +7,34 @@ def showcase_create_draft_from_title(config):
     print(created_draft)
 
 
+def showcase_create_draft_from_json_files(config):
+    # Creating drafts from all JSON files in the specified folder:
+    created_records_from_folder = core.create_drafts_from_folder(config,
+                                                                 folder_path="./path/to/folder/containing/json/data")
+
+    # Creating drafts from a list of JSON files:
+    created_records_from_files = core.create_drafts_from_files(
+        config,
+        json_files_paths=[
+            "./path/to/json/data/file1.json",
+            "./path/to/json/data/file2.json"
+        ]
+    )
+
+
 def showcase_create_draft_from_title_upload_data_from_paths(config):
     title = "Sample Dataset with File"
     created_draft = core.create_draft_from_name(config, title)
     created_draft_id = created_draft.get("id", None)
     if created_draft_id:
         # Change the file paths to actual files on your system
+        # Uploading specific files
         core.upload_files_to_draft(
             config,
             draft_id=created_draft_id,
             file_paths=["./sample_data/file1.txt", "./sample_data/file2.txt"]
         )
+        # Uploading all files from a folder
         core.upload_files_to_draft_from_folder(
             config,
             draft_id=created_draft_id,
@@ -39,4 +56,5 @@ if __name__ == '__main__':
 
     # Uncomment to run the showcase
     # showcase_create_draft_from_title(config)
-    showcase_create_draft_from_title_upload_data_from_paths(config)
+    # showcase_create_draft_from_title_upload_data_from_paths(config)
+    # showcase_create_draft_from_json_files(config)
