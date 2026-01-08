@@ -112,6 +112,8 @@ It uploads all files from the specified folder to the given draft - if you want 
 ```bash
 dar-invenio-cli upload folder <draft_id> "/path/to/your/folder"
 ```
+## Examples 
+**[Examples folder](https://github.com/eLTER-RI/dar-cli/tree/main/dar-cli-commands)** contains example JSON files and commands to create drafts and upload files.
 
 ## For Developers
 
