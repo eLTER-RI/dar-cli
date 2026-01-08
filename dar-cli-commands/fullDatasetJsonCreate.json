@@ -1,207 +1,205 @@
 {
-    "metadata": {
-        "additionalMetadata": [
-            {
-                "name": "custom_field",
-                "value": "custom_value"
-            }
-        ],
-        "alternateIdentifiers": [
-            {
-                "alternateID": "10.1234/alt.id",
-                "alternateIDType": "DOI"
-            }
-        ],
-        "assetType": "dataset",
-        "contactPoints": [
-            {
-                "contactEmail": "contact.person@example.com",
-                "contactName": "John Contact"
-            }
-        ],
-        "contributors": [
-            {
-                "contributorAffiliation": [
-                    {
-                        "entityID": [
-                            {
-                                "entityID": "https://ror.org/04dkp9463",
-                                "entityIDSchema": "ROR"
-                            }
-                        ],
-                        "entityName": "Example Institute"
-                    }
-                ],
-                "contributorEmail": "jane.doe@example.com",
-                "contributorFamilyName": "Doe",
-                "contributorGivenName": "Jane",
-                "contributorIDs": [
-                    {
-                        "entityID": "0000-0002-1825-0097",
-                        "entityIDSchema": "ORCID"
-                    }
-                ],
-                "contributorType": "Researcher"
-            }
-        ],
-        "creators": [
-            {
-                "creatorAffiliation": [
-                    {
-                        "entityID": [
-                            {
-                                "entityID": "https://ror.org/04dkp9463",
-                                "entityIDSchema": "ROR"
-                            }
-                        ],
-                        "entityName": "Main Research Center"
-                    }
-                ],
-                "creatorEmail": "main.creator@example.com",
-                "creatorFamilyName": "Smith",
-                "creatorGivenName": "John",
-                "creatorIDs": [
-                    {
-                        "entityID": "0000-0001-2345-6789",
-                        "entityIDSchema": "ORCID"
-                    }
-                ]
-            }
-        ],
-        "dataLevel": {
-            "dataLevelCode": "raw",
-            "dataLevelURI": "http://example.com/data-level/raw"
-        },
-        "datasetType": {
-            "datasetTypeCode": "observational",
-            "datasetTypeURI": "http://example.com/dataset-type/observational"
-        },
-        "descriptions": [
-            {
-                "descriptionText": "This is the main description of the dataset.",
-                "descriptionType": "Abstract"
-            },
-            {
-                "descriptionText": "These are the methods used to collect the data.",
-                "descriptionType": "Methods"
-            }
-        ],
-        "geoLocations": [
-            {
-                "boundingBox": {
-                    "eastBoundLongitude": 14.0,
-                    "northBoundLatitude": 52.0,
-                    "southBoundLatitude": 50.0,
-                    "westBoundLongitude": 12.0
-                },
-                "geographicDescription": "A location in Central Europe"
-            }
-        ],
-        "habitatReferences": [
-            {
-                "soHabitatCode": "T1.1",
-                "soHabitatURI": "http://example.com/habitat/T1.1"
-            }
-        ],
-        "keywords": [
-            {
-                "keywordLabel": "environmental science",
-                "keywordURI": "http://example.com/keywords/envsci"
-            },
-            {
-                "keywordLabel": "climate change",
-                "keywordURI": "http://example.com/keywords/climate"
-            }
-        ],
-        "language": "en",
-        "licenses": [
-            {
-                "licenseCode": "CC-BY-4.0",
-                "licenseURI": "https://creativecommons.org/licenses/by/4.0/"
-            }
-        ],
-        "methods": [
-            {
-                "instrumentationDescription": "High precision sensors were used.",
-                "methodID": "M-123",
-                "qualityControlDescription": "Data was manually verified.",
-                "sampling": {
-                    "samplingDescription": "Weekly sampling from fixed locations.",
-                    "studyDescription": "A two-year study on water quality."
-                },
-                "steps": [
-                    {
-                        "stepDescription": "Collect water samples.",
-                        "stepTitle": "Sample Collection"
-                    },
-                    {
-                        "stepDescription": "Analyze samples in the lab.",
-                        "stepTitle": "Lab Analysis"
-                    }
-                ]
-            }
-        ],
-        "projects": [
-            {
-                "projectID": "PROJ-001",
-                "projectName": "Advanced Environmental Research"
-            }
-        ],
-        "relatedIdentifiers": [
-            {
-                "relatedID": "10.1234/related.paper",
-                "relatedIDType": "DOI",
-                "relatedResourceType": "JournalArticle",
-                "relationType": "IsCitedBy"
-            }
-        ],
-        "responsibleOrganizations": [
-            {
-                "organizationEmail": "admin@research-org.com",
-                "organizationIDs": [
-                    {
-                        "entityID": "https://ror.org/012345678",
-                        "entityIDSchema": "ROR"
-                    }
-                ],
-                "organizationName": "National Research Organization"
-            }
-        ],
-        "siteReferences": [
-            {
-                "siteID": "DE-Site-01",
-                "siteName": "Test Site 1"
-            }
-        ],
-        "taxonomicCoverages": [
-            {
-                "taxonomicClassification": [
-                    {
-                        "taxonomicClassificationID": "urn:lsid:marinespecies.org:taxname:141433",
-                        "taxonomicCommonName": "Common Dolphin",
-                        "taxonomicRankName": "Species",
-                        "taxonomicRankValue": "Delphinus delphis"
-                    }
-                ],
-                "taxonomicDescription": "Study focuses on marine mammals."
-            }
-        ],
-        "temporalCoverages": [
-            {
-                "endDate": "2023-09-30",
-                "startDate": "2021-10-01"
-            }
-        ],
-        "temporalResolution": {
-            "temporalResolutionUnit": "Day",
-            "temporalResolutionValue": 1
-        },
-        "titles": [
-            {
-                "titleLanguage": "en",
-                "titleText": "A Study of Water Quality in the Danube River"
-            }
-        ]
+  "additionalMetadata": [
+    {
+      "name": "custom_field",
+      "value": "custom_value"
     }
+  ],
+  "alternateIdentifiers": [
+    {
+      "alternateID": "10.1234/alt.id",
+      "alternateIDType": "DOI"
+    }
+  ],
+  "assetType": "dataset",
+  "contactPoints": [
+    {
+      "contactEmail": "contact.person@example.com",
+      "contactName": "John Contact"
+    }
+  ],
+  "contributors": [
+    {
+      "contributorAffiliation": [
+        {
+          "entityID": [
+            {
+              "entityID": "https://ror.org/04dkp9463",
+              "entityIDSchema": "ROR"
+            }
+          ],
+          "entityName": "Example Institute"
+        }
+      ],
+      "contributorEmail": "jane.doe@example.com",
+      "contributorFamilyName": "Doe",
+      "contributorGivenName": "Jane",
+      "contributorIDs": [
+        {
+          "entityID": "0000-0002-1825-0097",
+          "entityIDSchema": "ORCID"
+        }
+      ],
+      "contributorType": "Researcher"
+    }
+  ],
+  "creators": [
+    {
+      "creatorAffiliation": [
+        {
+          "entityID": [
+            {
+              "entityID": "https://ror.org/04dkp9463",
+              "entityIDSchema": "ROR"
+            }
+          ],
+          "entityName": "Main Research Center"
+        }
+      ],
+      "creatorEmail": "main.creator@example.com",
+      "creatorFamilyName": "Smith",
+      "creatorGivenName": "John",
+      "creatorIDs": [
+        {
+          "entityID": "0000-0001-2345-6789",
+          "entityIDSchema": "ORCID"
+        }
+      ]
+    }
+  ],
+  "dataLevel": {
+    "dataLevelCode": "raw",
+    "dataLevelURI": "http://example.com/data-level/raw"
+  },
+  "datasetType": {
+    "datasetTypeCode": "observational",
+    "datasetTypeURI": "http://example.com/dataset-type/observational"
+  },
+  "descriptions": [
+    {
+      "descriptionText": "This is the main description of the dataset.",
+      "descriptionType": "Abstract"
+    },
+    {
+      "descriptionText": "These are the methods used to collect the data.",
+      "descriptionType": "Methods"
+    }
+  ],
+  "geoLocations": [
+    {
+      "boundingBox": {
+        "eastBoundLongitude": 14.0,
+        "northBoundLatitude": 52.0,
+        "southBoundLatitude": 50.0,
+        "westBoundLongitude": 12.0
+      },
+      "geographicDescription": "A location in Central Europe"
+    }
+  ],
+  "habitatReferences": [
+    {
+      "soHabitatCode": "T1.1",
+      "soHabitatURI": "http://example.com/habitat/T1.1"
+    }
+  ],
+  "keywords": [
+    {
+      "keywordLabel": "environmental science",
+      "keywordURI": "http://example.com/keywords/envsci"
+    },
+    {
+      "keywordLabel": "climate change",
+      "keywordURI": "http://example.com/keywords/climate"
+    }
+  ],
+  "language": "en",
+  "licenses": [
+    {
+      "licenseCode": "CC-BY-4.0",
+      "licenseURI": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "methods": [
+    {
+      "instrumentationDescription": "High precision sensors were used.",
+      "methodID": "M-123",
+      "qualityControlDescription": "Data was manually verified.",
+      "sampling": {
+        "samplingDescription": "Weekly sampling from fixed locations.",
+        "studyDescription": "A two-year study on water quality."
+      },
+      "steps": [
+        {
+          "stepDescription": "Collect water samples.",
+          "stepTitle": "Sample Collection"
+        },
+        {
+          "stepDescription": "Analyze samples in the lab.",
+          "stepTitle": "Lab Analysis"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "projectID": "PROJ-001",
+      "projectName": "Advanced Environmental Research"
+    }
+  ],
+  "relatedIdentifiers": [
+    {
+      "relatedID": "10.1234/related.paper",
+      "relatedIDType": "DOI",
+      "relatedResourceType": "JournalArticle",
+      "relationType": "IsCitedBy"
+    }
+  ],
+  "responsibleOrganizations": [
+    {
+      "organizationEmail": "admin@research-org.com",
+      "organizationIDs": [
+        {
+          "entityID": "https://ror.org/012345678",
+          "entityIDSchema": "ROR"
+        }
+      ],
+      "organizationName": "National Research Organization"
+    }
+  ],
+  "siteReferences": [
+    {
+      "siteID": "DE-Site-01",
+      "siteName": "Test Site 1"
+    }
+  ],
+  "taxonomicCoverages": [
+    {
+      "taxonomicClassification": [
+        {
+          "taxonomicClassificationID": "urn:lsid:marinespecies.org:taxname:141433",
+          "taxonomicCommonName": "Common Dolphin",
+          "taxonomicRankName": "Species",
+          "taxonomicRankValue": "Delphinus delphis"
+        }
+      ],
+      "taxonomicDescription": "Study focuses on marine mammals."
+    }
+  ],
+  "temporalCoverages": [
+    {
+      "endDate": "2023-09-30",
+      "startDate": "2021-10-01"
+    }
+  ],
+  "temporalResolution": {
+    "temporalResolutionUnit": "Day",
+    "temporalResolutionValue": 1
+  },
+  "titles": [
+    {
+      "titleLanguage": "en",
+      "titleText": "A Study of Water Quality in the Danube River"
+    }
+  ]
 }
 
